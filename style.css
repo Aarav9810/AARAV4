@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(pic/image\ after.jpg);
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #f4a261;
+}
+
+/* Main Section */
+.main {
+    position: relative;
+    height: 100vh;
+    background: url('pic/background.jpg') no-repeat center center/cover;
+}
+
+/* Info Section */
+.info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.info h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.info h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.info a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.info a:hover {
+    background-color: #e76f51;
+}
+
+/* About Section */
+#about-section {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+#about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
